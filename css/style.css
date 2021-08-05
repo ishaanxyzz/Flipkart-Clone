@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+:root{
+    --main-bg-color: #33ac2fde;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    background:var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width:88px;
+    padding: 0 25px;
+
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    
+    text-decoration: none;
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+.search input{
+    width: 400px;
+    height: 25px;
+    border-radius: 1px;
+    margin: 0 5px 0 10px;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#log{
+    
+     padding: 5px 35px;
+     background: white;
+     border: 1px solid black;
+        color: var(--main-bg-color);
+        font-weight: bold;
+        border-radius: 4px;
+        /* margin: 3px 6px 2px 40px; */
+        cursor: pointer;
+    
+}
+#cart{
+    display: flex;
+    color: white;
+    
+padding: 5px 12px;
+margin: 0px 0px 0px 34px;
+font-size: 20px;
+width: 15.5px;
+cursor: pointer;
+
+    
+}
+#cartpara{
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: bold;
+    margin: 0px 2px;
+    cursor: pointer;
+    
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);    
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: 7px auto;
+    width: 1045px;
+    height: 183px;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.card{
+    max-width: 90vw;
+    margin: auto;
+}
+.cards{
+    display: flex;
+}
+.card-item{
+    display:inline-flex ;
+    
+    flex-direction: column;
+    width: 10vw;
+    margin: 0 6px;
+}
+.card h2{
+    font-family: 'Comic Neue', cursive;
+}
+footer{
+    height: 12vh;
+    background:var(--main-bg-color);;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
